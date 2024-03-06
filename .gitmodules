@@ -1,0 +1,4 @@
+[submodule "external/CommonLibVR"]
+	path = external/CommonLibVR
+	url = https://github.com/Nightfallstorm/CommonLibSSE.git
+	branch = VR
