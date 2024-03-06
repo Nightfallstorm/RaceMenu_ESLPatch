@@ -1,4 +1,4 @@
-#include "papyrusUtilVRHooks.h"
+#include "RaceMenuVRHooks.h"
 
 void MessageHandler(SKSE::MessagingInterface::Message* a_message)
 {
@@ -65,7 +65,7 @@ extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const SKSE::LoadInterface* a_s
 	logger::info("loaded plugin");
 
 	SKSE::Init(a_skse);
-	PapyrusUtilVRHooks::Install();
+	RaceMenuVRHooks::Install();
 	logger::info("finish hooks");
 
 	return true;
