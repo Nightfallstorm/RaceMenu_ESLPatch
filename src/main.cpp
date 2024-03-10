@@ -67,6 +67,5 @@ extern "C" DLLEXPORT bool SKSEAPI SKSEPlugin_Load(const SKSE::LoadInterface* a_s
 	SKSE::Init(a_skse);
 	RaceMenuVRHooks::Install();
 	logger::info("finish hooks");
-
 	return true;
 }
